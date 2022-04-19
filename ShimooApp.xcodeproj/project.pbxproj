@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F943B5280E5B4200D8FCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943B4280E5B4200D8FCC6 /* AppDelegate.swift */; };
+		11F943B7280E5B4200D8FCC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943B6280E5B4200D8FCC6 /* SceneDelegate.swift */; };
+		11F943B9280E5B4200D8FCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943B8280E5B4200D8FCC6 /* ViewController.swift */; };
+		11F943BC280E5B4200D8FCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F943BA280E5B4200D8FCC6 /* Main.storyboard */; };
+		11F943BE280E5B4300D8FCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F943BD280E5B4300D8FCC6 /* Assets.xcassets */; };
+		11F943C1280E5B4300D8FCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F943BF280E5B4300D8FCC6 /* LaunchScreen.storyboard */; };
+		11F943CC280E5B4300D8FCC6 /* ShimooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943CB280E5B4300D8FCC6 /* ShimooAppTests.swift */; };
+		11F943D6280E5B4300D8FCC6 /* ShimooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943D5280E5B4300D8FCC6 /* ShimooAppUITests.swift */; };
+		11F943D8280E5B4300D8FCC6 /* ShimooAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F943D7280E5B4300D8FCC6 /* ShimooAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F943C8280E5B4300D8FCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F943A9280E5B4200D8FCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F943B0280E5B4200D8FCC6;
+			remoteInfo = ShimooApp;
+		};
+		11F943D2280E5B4300D8FCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F943A9280E5B4200D8FCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F943B0280E5B4200D8FCC6;
+			remoteInfo = ShimooApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F943B1280E5B4200D8FCC6 /* ShimooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F943B4280E5B4200D8FCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11F943B6280E5B4200D8FCC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11F943B8280E5B4200D8FCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11F943BB280E5B4200D8FCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11F943BD280E5B4300D8FCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F943C0280E5B4300D8FCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11F943C2280E5B4300D8FCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F943C7280E5B4300D8FCC6 /* ShimooAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimooAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F943CB280E5B4300D8FCC6 /* ShimooAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimooAppTests.swift; sourceTree = "<group>"; };
+		11F943D1280E5B4300D8FCC6 /* ShimooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F943D5280E5B4300D8FCC6 /* ShimooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimooAppUITests.swift; sourceTree = "<group>"; };
+		11F943D7280E5B4300D8FCC6 /* ShimooAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimooAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F943AE280E5B4200D8FCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943C4280E5B4300D8FCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943CE280E5B4300D8FCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F943A8280E5B4200D8FCC6 = {
+			isa = PBXGroup;
+			children = (
+				11F943B3280E5B4200D8FCC6 /* ShimooApp */,
+				11F943CA280E5B4300D8FCC6 /* ShimooAppTests */,
+				11F943D4280E5B4300D8FCC6 /* ShimooAppUITests */,
+				11F943B2280E5B4200D8FCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F943B2280E5B4200D8FCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F943B1280E5B4200D8FCC6 /* ShimooApp.app */,
+				11F943C7280E5B4300D8FCC6 /* ShimooAppTests.xctest */,
+				11F943D1280E5B4300D8FCC6 /* ShimooAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F943B3280E5B4200D8FCC6 /* ShimooApp */ = {
+			isa = PBXGroup;
+			children = (
+				11F943B4280E5B4200D8FCC6 /* AppDelegate.swift */,
+				11F943B6280E5B4200D8FCC6 /* SceneDelegate.swift */,
+				11F943B8280E5B4200D8FCC6 /* ViewController.swift */,
+				11F943BA280E5B4200D8FCC6 /* Main.storyboard */,
+				11F943BD280E5B4300D8FCC6 /* Assets.xcassets */,
+				11F943BF280E5B4300D8FCC6 /* LaunchScreen.storyboard */,
+				11F943C2280E5B4300D8FCC6 /* Info.plist */,
+			);
+			path = ShimooApp;
+			sourceTree = "<group>";
+		};
+		11F943CA280E5B4300D8FCC6 /* ShimooAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F943CB280E5B4300D8FCC6 /* ShimooAppTests.swift */,
+			);
+			path = ShimooAppTests;
+			sourceTree = "<group>";
+		};
+		11F943D4280E5B4300D8FCC6 /* ShimooAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11F943D5280E5B4300D8FCC6 /* ShimooAppUITests.swift */,
+				11F943D7280E5B4300D8FCC6 /* ShimooAppUITestsLaunchTests.swift */,
+			);
+			path = ShimooAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F943B0280E5B4200D8FCC6 /* ShimooApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F943DB280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooApp" */;
+			buildPhases = (
+				11F943AD280E5B4200D8FCC6 /* Sources */,
+				11F943AE280E5B4200D8FCC6 /* Frameworks */,
+				11F943AF280E5B4200D8FCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimooApp;
+			productName = ShimooApp;
+			productReference = 11F943B1280E5B4200D8FCC6 /* ShimooApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F943C6280E5B4300D8FCC6 /* ShimooAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F943DE280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooAppTests" */;
+			buildPhases = (
+				11F943C3280E5B4300D8FCC6 /* Sources */,
+				11F943C4280E5B4300D8FCC6 /* Frameworks */,
+				11F943C5280E5B4300D8FCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F943C9280E5B4300D8FCC6 /* PBXTargetDependency */,
+			);
+			name = ShimooAppTests;
+			productName = ShimooAppTests;
+			productReference = 11F943C7280E5B4300D8FCC6 /* ShimooAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11F943D0280E5B4300D8FCC6 /* ShimooAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F943E1280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooAppUITests" */;
+			buildPhases = (
+				11F943CD280E5B4300D8FCC6 /* Sources */,
+				11F943CE280E5B4300D8FCC6 /* Frameworks */,
+				11F943CF280E5B4300D8FCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F943D3280E5B4300D8FCC6 /* PBXTargetDependency */,
+			);
+			name = ShimooAppUITests;
+			productName = ShimooAppUITests;
+			productReference = 11F943D1280E5B4300D8FCC6 /* ShimooAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F943A9280E5B4200D8FCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					11F943B0280E5B4200D8FCC6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					11F943C6280E5B4300D8FCC6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 11F943B0280E5B4200D8FCC6;
+					};
+					11F943D0280E5B4300D8FCC6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 11F943B0280E5B4200D8FCC6;
+					};
+				};
+			};
+			buildConfigurationList = 11F943AC280E5B4200D8FCC6 /* Build configuration list for PBXProject "ShimooApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11F943A8280E5B4200D8FCC6;
+			productRefGroup = 11F943B2280E5B4200D8FCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F943B0280E5B4200D8FCC6 /* ShimooApp */,
+				11F943C6280E5B4300D8FCC6 /* ShimooAppTests */,
+				11F943D0280E5B4300D8FCC6 /* ShimooAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F943AF280E5B4200D8FCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F943C1280E5B4300D8FCC6 /* LaunchScreen.storyboard in Resources */,
+				11F943BE280E5B4300D8FCC6 /* Assets.xcassets in Resources */,
+				11F943BC280E5B4200D8FCC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943C5280E5B4300D8FCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943CF280E5B4300D8FCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F943AD280E5B4200D8FCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F943B9280E5B4200D8FCC6 /* ViewController.swift in Sources */,
+				11F943B5280E5B4200D8FCC6 /* AppDelegate.swift in Sources */,
+				11F943B7280E5B4200D8FCC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943C3280E5B4300D8FCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F943CC280E5B4300D8FCC6 /* ShimooAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F943CD280E5B4300D8FCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F943D6280E5B4300D8FCC6 /* ShimooAppUITests.swift in Sources */,
+				11F943D8280E5B4300D8FCC6 /* ShimooAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F943C9280E5B4300D8FCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F943B0280E5B4200D8FCC6 /* ShimooApp */;
+			targetProxy = 11F943C8280E5B4300D8FCC6 /* PBXContainerItemProxy */;
+		};
+		11F943D3280E5B4300D8FCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F943B0280E5B4200D8FCC6 /* ShimooApp */;
+			targetProxy = 11F943D2280E5B4300D8FCC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11F943BA280E5B4200D8FCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F943BB280E5B4200D8FCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11F943BF280E5B4300D8FCC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F943C0280E5B4300D8FCC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F943D9280E5B4300D8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11F943DA280E5B4300D8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F943DC280E5B4300D8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShimooApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F943DD280E5B4300D8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShimooApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11F943DF280E5B4300D8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimooApp.app/ShimooApp";
+			};
+			name = Debug;
+		};
+		11F943E0280E5B4300D8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimooApp.app/ShimooApp";
+			};
+			name = Release;
+		};
+		11F943E2280E5B4300D8FCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShimooApp;
+			};
+			name = Debug;
+		};
+		11F943E3280E5B4300D8FCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8CTL75PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Shifu.ShimooAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShimooApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F943AC280E5B4200D8FCC6 /* Build configuration list for PBXProject "ShimooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F943D9280E5B4300D8FCC6 /* Debug */,
+				11F943DA280E5B4300D8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F943DB280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F943DC280E5B4300D8FCC6 /* Debug */,
+				11F943DD280E5B4300D8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F943DE280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F943DF280E5B4300D8FCC6 /* Debug */,
+				11F943E0280E5B4300D8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F943E1280E5B4300D8FCC6 /* Build configuration list for PBXNativeTarget "ShimooAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F943E2280E5B4300D8FCC6 /* Debug */,
+				11F943E3280E5B4300D8FCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F943A9280E5B4200D8FCC6 /* Project object */;
+}
